@@ -1,16 +1,18 @@
-# React + Vite
+# Blogger Frontend 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The user interface for the full-stack blogging application. Built using modern React tools, this single-page application interacts seamlessly with a custom Node.js backend to provide an intuitive blogging experience.
 
-Currently, two official plugins are available:
+## 🎯 Learning & Practice Goals
+* **API Integration:** Consuming a custom-built external REST API utilizing Axios.
+* **Authentication Management:** Interacting with secure HTTP-only cookies and protecting routes dynamically based on authentication status.
+* **Build Tools:** Utilizing Vite for lightning-fast development steps and optimized production bundles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+* **Framework:** React
+* **Build Tool:** Vite
+* **HTTP Client:** Axios (configured with `withCredentials: true`)
+* **Hosting:** Vercel
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🚀 Live Application
+* **Live Site:** [https://blogger-ashy-rho.vercel.app/](https://blogger-ashy-rho.vercel.app/)
+* **Backend Companion Repository:** [[blogger_backend]](https://github.com/tharindudev13/blogger_backend)
