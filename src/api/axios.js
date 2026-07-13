@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.API_BASE_URL,
+  baseURL: 'https://blogger-backend-siro.onrender.com/api/v1',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
